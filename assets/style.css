@@ -42,7 +42,8 @@ body {
   font-size: 90%;
   line-height: 140%;
   background-color: #000000;
-  cursor: url("pointer.ico") 16 16, auto;
+  cursor: auto;
+  /*cursor: url("pointer.ico") 16 16, auto;*/
 }
 
 a{
