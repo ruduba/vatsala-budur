@@ -8,7 +8,7 @@ code { font-family: monospace; }
 h1 a, h2 a, h3 a, h4 a, h5 a { text-decoration: none; color: #00ff1e; }
 a img {border: none;}
 h1, h2, h3, h4, h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: #00ff1e;
   clear: both;
@@ -19,13 +19,13 @@ h3 { font-size: 95%; }
 h4, h5 { font-size: 90%; font-style: italic; }
 
 h1.title {
-  font-size: 150%;
+  font-size: 200%;
   font-weight: bold;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   text-align: left;
   border: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   color: #00ff1e;
 }
 
@@ -37,19 +37,23 @@ body {
   max-width: 50em;
   border-left: 1px solid #00ff1e;
   border-right: 1px solid #00ff1e;
-  color: #00ff1e; 
-  font-family: Arial, Helvetica, sans-serif;
+  color: #009511; 
+  font-family: 'Courier New', Courier, monospace;
   font-size: 90%;
   line-height: 140%;
   background-color: #000000;
+  cursor: url("pointer.ico") 16 16, auto;
 }
 
 a{
-    color: #ff00d0;
+    color: #b90097;
+    text-decoration: none;
 }
 
 a:hover{
-    color: #6d0098;
+    color: #600098;
+    /*cursor: crosshair;*/
+    
 }
 
 .footer {
@@ -67,12 +71,12 @@ a:hover{
   margin-right: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
 .logo {
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -91,6 +95,28 @@ a:hover{
   padding: 7px;
 }
 
+.tabs .tab{
+  display: block;
+}
+
+nav .tabs .tab a[data-switcher]{
+ cursor: pointer;
+  
+}
+
+nav .tabs .tab.is-active a[data-switcher] {
+  color: #6d0098;
+  text-decoration: underline wavy #00652a 1px;
+  
+}
+
+.pages .page{
+  display: none;
+}
+
+.pages .page.is-active{
+  display: block;
+}
 
 #TOC {
   float: left;
