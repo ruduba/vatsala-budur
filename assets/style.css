@@ -29,7 +29,7 @@ h1.title {
   padding-bottom: 0.2em;
   text-align: left;
   border: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   color: #00e41b;
   
 }
@@ -46,7 +46,7 @@ body {
   border-left: 1px solid #00ff1e;
   border-right: 1px solid #00ff1e;
   color: #009511; 
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 90%;
   line-height: 140%;
   background-color: #000000;
@@ -95,7 +95,7 @@ a:hover {
   margin-right: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -154,6 +154,15 @@ nav .tabs .tab.is-active a[data-switcher] {
 ::-webkit-scrollbar-thumb:hover{
     background-color:#7f00c9;
     opacity: 50%;
+}
+
+footer{
+  position: fixed;
+  right: 0; bottom: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0px;
+  margin-bottom: 1em;
 }
 
 #TOC {
