@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5 {
   clear: both;
 }
 h1 { font-size: 130%; border-bottom: 1px dotted #00e41b; }
-h2 { font-size: 110%; border-bottom: 1px dotted #00e41b; }
+h2 { font-size: 110%; }
 h3 { font-size: 95%; }
 h4, h5 { font-size: 90%; font-style: italic; }
 
@@ -54,6 +54,7 @@ body {
   line-height: 140%;
   background-color: #000000;
   overflow-x: hidden;
+  min-height: 100vh;
   
 }
 
@@ -62,6 +63,14 @@ a{
     text-decoration: none;
 }
 
+.gallery{
+  display: block;
+  margin: auto;
+}
+
+.coming-soon{
+  color: #949900;
+}
 a.projects{
   font-size: 110%;
   font-style: italic;
@@ -88,6 +97,7 @@ a:hover {
   font-size: 70%;
   color: gray;
   text-align: center;
+
 }
 
 .sidebar {
@@ -159,7 +169,7 @@ nav .tabs .tab.is-active a[data-switcher] {
     opacity: 50%;
 }
 
-footer{
+.hit{
   position: fixed;
   right: 0; bottom: 0;
   margin-left: 1em;
