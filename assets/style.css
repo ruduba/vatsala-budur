@@ -179,7 +179,7 @@ nav .tabs .tab.is-active a[data-switcher] {
 
 .hit{
   position: fixed;
-  right: 0; bottom: 0;
+  left: 0; bottom: 0;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 0px;
