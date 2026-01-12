@@ -51,8 +51,8 @@ body {
   border-left: 1px solid #00ff1e;
   border-right: 1px solid #00ff1e;
   color: #009511; 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 90%;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
   line-height: 140%;
   background-color: #000000;
   overflow-x: hidden;
@@ -116,7 +116,7 @@ a:hover {
   margin-right: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 
