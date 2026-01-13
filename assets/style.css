@@ -126,12 +126,10 @@ a:hover {
   border-top: 1px dashed #00e41b;
 }
 
-.updates h2{
-  border-bottom: 1px solid #009511;
-}
 .updates li{
   list-style-type: none;
   font-size: small;
+  border-bottom: 0.5px dotted #00652a;
 }
 
 .logo {
