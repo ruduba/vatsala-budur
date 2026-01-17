@@ -52,7 +52,7 @@ body {
   border-right: 1px solid #00ff1e;
   color: #009511; 
   font-family: 'Arial Narrow', Arial, sans-serif;
-  font-size: 120%;
+  font-size: 115%;
   line-height: 140%;
   background-color: #000000;
   overflow-x: hidden;
@@ -122,14 +122,21 @@ a:hover {
 .updates{
   position: relative;
   left: 0; top: 0;
-  margin: 0;
-  border-top: 1px dashed #00e41b;
+  margin: 0px;
+  
+}
+
+.update-title{
+  color: #ffffff !important;
+  
 }
 
 .updates li{
+  color: #00ff22;
+  text-align: right;
   list-style-type: none;
   font-size: small;
-  border-bottom: 0.5px dotted #00652a;
+  
 }
 
 .logo {
@@ -148,6 +155,7 @@ a:hover {
 }
 
 .menu li {
+  
   list-style-type: none;
   padding: 7px;
 }
